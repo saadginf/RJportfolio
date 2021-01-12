@@ -1,0 +1,109 @@
+.herosection {
+  background-color: #313133;
+  height: 800px;
+  padding-top: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroimages {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.imgperso {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.imgperso img {
+  border-radius: 50%;
+  width: 300px;
+}
+.oeuvre {
+  height: 400px;
+  width: 850px;
+}
+.oeuvre img {
+  height: 400px;
+}
+.herosection p {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 800px;
+}
+.herosection h1 {
+  font-family: "Satisfy", cursive;
+  color: #d0d0d4;
+}
+@media only screen and (max-width: 1140px) {
+  .herosection {
+    height: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .oeuvre {
+    width: 750px;
+    height: 300;
+    margin-bottom: 30px;
+  }
+  .imgperso {
+    margin-bottom: 40px;
+  }
+  .herosection p {
+    width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .herosection {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .oeuvre {
+    width: 500px;
+    height: 300px;
+  }
+  .oeuvre img {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .oeuvre {
+    width: 300px;
+    height: 150px;
+  }
+  .oeuvre img {
+    height: 150px;
+  }
+  .imgperso {
+    height: 200px;
+  }
+  .imgperso img {
+    width: 150px;
+  }
+  .herosection {
+    height: 900px;
+  }
+  h1 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .heroimages {
+    margin-top: 0px;
+  }
+  .oeuvre {
+    margin-bottom: 10px;
+  }
+}
