@@ -1,0 +1,16 @@
+.footer {
+  background-color: #313133;
+  color: white;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer h2 {
+  font-size: 30px;
+}
+.social {
+  margin-top: 20px;
+}

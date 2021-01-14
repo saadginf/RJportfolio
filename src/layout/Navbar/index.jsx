@@ -15,9 +15,8 @@ import {
   NavItem,
   Navlogo,
   NavBtn,
-  NavBtnLink,
 } from "./NavBarElements";
-import logo from "../../images/logo2.PNG";
+
 const Navbar = ({ toogle }) => {
   const [scroll, setscroll] = useState(false);
   const changeNav = () => {
