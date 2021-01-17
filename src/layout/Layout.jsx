@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import RightBar from "../components/RightBar";
 
 import Navbar from "./Navbar";
 
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar toogle={toogle} />
+      <RightBar isOpen={isOpen} toogle={toogle} />
       {children}
     </>
   );

@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="contact">
         <h1>Contactez Moi</h1>
         <div className="social">

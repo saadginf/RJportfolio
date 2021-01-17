@@ -10,6 +10,9 @@ export const ServicesContainer = styled.div`
   @media (max-width: 890px) {
     height: 800px;
   }
+  @media (max-width: 690px) {
+    height: 1000px;
+  }
 `;
 export const ServicesWrapper = styled.div`
   margin: 0 auto;
@@ -77,6 +80,9 @@ export const FrTestimonial = styled.div`
   color: #fff;
   font-size: 20px;
   text-indent: 30px;
+  @media (max-width: 690px) {
+    font-size: 16px;
+  }
 `;
 export const LinkTo = styled(LinkR)`
   text-decoration: none;
