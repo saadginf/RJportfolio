@@ -14,7 +14,6 @@ export const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   z-index: 10;
-
   @media (max-width: 960px) {
     transition: 0.8s all ease;
   }
@@ -30,28 +29,32 @@ export const Navlogo = styled(LinkR)`
 export const MobileIcon = styled.div`
   cursor: pointer;
 
-  display: flex;
-  align-items: center;
+  display: none;
 
   cursor: pointer;
   height: 100%;
+  @media (max-width: 960px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const Navlinks = styled.div`
   display: flex;
-
   justify-content: space-around;
   align-items: center;
   list-style: none;
   height: 100%;
-
-  display: none;
+  @media (max-width: 960px) {
+    display: none;
+  }
 `;
 export const NavItem = styled.div`
   display: flex;
   height: 40px;
   align-items: center;
-  margin-right: 24px;
+  margin-right: 50px;
   height: "100%";
 `;
 export const NavA = styled(LinkS)`
@@ -67,9 +70,13 @@ export const NavA = styled(LinkS)`
   cursor: pointer;
   display: flex;
   align-items: center;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
   &.active {
     text-decoration: none;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid white;
   }
 `;
 export const SideBar = styled.div`

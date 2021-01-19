@@ -38,11 +38,7 @@ const Navbar = ({ toogle }) => {
         <Navlogo to="/" onClick={toogleHome}>
           Rj
         </Navlogo>
-        <NavBtn>
-          <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
-          <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
-          <FontAwesomeIcon icon={faTwitter} size="2x" color="white" />
-        </NavBtn>
+
         <MobileIcon>
           <FontAwesomeIcon
             icon={faBars}
@@ -67,20 +63,20 @@ const Navbar = ({ toogle }) => {
           </NavItem>{" "}
           <NavItem>
             <NavA
-              to="discover"
+              to="services"
               smooth={true}
               duration={500}
               spy={true}
               exact="true"
               offset={-80}
             >
-              Oeuvres
+              My Works
             </NavA>
           </NavItem>
           <NavItem>
             {" "}
             <NavA
-              to="services"
+              to="testi"
               smooth={true}
               duration={500}
               spy={true}
@@ -90,20 +86,12 @@ const Navbar = ({ toogle }) => {
               Témoignages
             </NavA>
           </NavItem>
-          <NavItem>
-            {" "}
-            <NavA
-              to="signup"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-80}
-            >
-              Contact
-            </NavA>
-          </NavItem>
         </Navlinks>
+        <NavBtn>
+          <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
+          <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
+          <FontAwesomeIcon icon={faTwitter} size="2x" color="white" />
+        </NavBtn>
       </NavContainer>
     </>
   );
