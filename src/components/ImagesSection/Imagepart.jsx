@@ -33,9 +33,9 @@ const Imagepart = () => {
           </div>
           <div className="gallery-part ">
             <SRLWrapper>
-              <img src={oeuvre5} className="portrait" />
-              <img src={oeuvre4} className="portrait" />
-              <img src={oeuvre7} className="paysage" />
+              <img src={oeuvre5} alt=".." className="portrait" />
+              <img src={oeuvre4} alt=".." className="portrait" />
+              <img src={oeuvre7} alt=".." className="paysage" />
             </SRLWrapper>
           </div>
         </div>
