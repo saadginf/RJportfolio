@@ -1,0 +1,80 @@
+.home-link {
+  background-color: #313133;
+  padding: 10px;
+}
+.container-image-section {
+  background-color: #313133;
+  height: 800px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-image-section h2 {
+  color: white;
+  font-size: 40px;
+}
+.gallery-descriptif {
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+.gallery-descriptif2 {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+.gallery-part {
+  width: 50%;
+  padding: 10px;
+}
+.gallery-part div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portrait {
+  height: 300px;
+  width: 200px;
+  margin: 20px 0;
+}
+.paysage {
+  height: 200px;
+  width: 300px;
+  margin: 20px 0;
+}
+.descriptif-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 50%;
+}
+@media only screen and (max-width: 840px) {
+  .descriptif-part {
+    width: 100%;
+  }
+  .gallery-part {
+    width: 60%;
+  }
+  .container-image-section {
+    height: 1200px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container-image-section {
+    height: 1600px;
+  }
+  .gallery-part {
+    width: 100%;
+  }
+}

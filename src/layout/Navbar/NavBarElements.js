@@ -54,7 +54,7 @@ export const NavItem = styled.div`
   display: flex;
   height: 40px;
   align-items: center;
-  margin-right: 50px;
+  margin: 0 50px;
   height: "100%";
 `;
 export const NavA = styled(LinkS)`

@@ -31,7 +31,7 @@ const Services = () => {
       </ServicesWrapper>
       <BtnWrap>
         <Button
-          to="home"
+          to="/galerie"
           smooth={true}
           duration={500}
           spy={true}

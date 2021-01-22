@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import RightBar from "../components/RightBar";
 
 import Navbar from "./Navbar";
+import SideBarV1 from "./SideBar";
 
 const Layout = ({ children }) => {
   const [isOpen, setisOpen] = useState(false);
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar toogle={toogle} />
-      <RightBar isOpen={isOpen} toogle={toogle} />
+      <SideBarV1 isOpen={isOpen} toogle={toogle} />
       {children}
     </>
   );
