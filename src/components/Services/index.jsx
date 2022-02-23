@@ -3,6 +3,7 @@ import {
   ServicesContainer,
   ServicesWrapper,
   ServicesH1,
+  ServicesP,
   ServicesCard,
   ServicesIcon,
   BtnWrap,

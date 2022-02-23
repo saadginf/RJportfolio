@@ -2,7 +2,11 @@ import React from "react";
 import logo from "../images/logo2.PNG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Footer.css";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faMapMarked,
+  faPhoneSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faInstagram,
@@ -12,12 +16,23 @@ const Footer = () => {
   return (
     <div className="footer" id="contact">
       <div className="contact">
-        <h1>Contactez Moi</h1>
+        <h1>Contact Us</h1>
         <div className="social">
-          <FontAwesomeIcon icon={faFacebook} size="4x" color="white" />
-          <FontAwesomeIcon icon={faInstagram} size="4x" color="white" />
-          <FontAwesomeIcon icon={faTwitter} size="4x" color="white" />
-          <FontAwesomeIcon icon={faEnvelope} size="4x" color="white" />
+          <div>
+            <FontAwesomeIcon icon={faMapMarked} size="3x" color="white" />
+            <hr style={{ borderWidth: 2, borderColor: "white" }} />
+            Mustafa, 54350 Midelt, Morocco
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faPhoneSquare} size="3x" color="white" />
+            <hr style={{ borderWidth: 2, borderColor: "white" }} />
+            +212 661 239 957
+          </div>
+          <div>
+            <FontAwesomeIcon icon={faEnvelope} size="3x" color="white" />
+            <hr style={{ borderWidth: 2, borderColor: "white" }} />
+            ayach.selenites@gmail.com
+          </div>
         </div>
       </div>
       <div className="copyrights">

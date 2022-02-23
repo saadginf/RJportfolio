@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <div className="herosection">
       <Slide top>
-        <h1>Rajae Veladoveli</h1>
+        <h1>Amigo Minerals Morrocco</h1>
       </Slide>
       <div className="heroimages">
         <Fade right>
@@ -36,10 +36,10 @@ const HeroSection = () => {
       </div>
       <Fade top>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          LWe offer quality products as tumbled gemstones, rocks and minerals,
+          gemstone beads jewelery, lamps and candle holders, amethyst geodes,
+          healing stones. We offer a vast array of rough minerals and crystals
+          in their natural form.
         </p>
       </Fade>
     </div>

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+  faBars,
+  faEnvelope,
+  faPhoneSquareAlt,
+} from "@fortawesome/free-solid-svg-icons";
+
 import { animateScroll } from "react-scroll";
 import {
   NavContainer,
@@ -36,7 +36,7 @@ const Navbar = ({ toogle }) => {
     <>
       <NavContainer scroll={scroll}>
         <Navlogo to="/" onClick={toogleHome}>
-          Rj
+          AmigoMineral
         </Navlogo>
 
         <MobileIcon>
@@ -88,9 +88,10 @@ const Navbar = ({ toogle }) => {
           </NavItem>
         </Navlinks>
         <NavBtn>
-          <FontAwesomeIcon icon={faFacebook} size="2x" color="white" />
-          <FontAwesomeIcon icon={faInstagram} size="2x" color="white" />
-          <FontAwesomeIcon icon={faTwitter} size="2x" color="white" />
+          <FontAwesomeIcon icon={faPhoneSquareAlt} size="2x" color="white" />
+          <span style={{ marginLeft: 5 }}> +212 661 239 957</span>
+          <FontAwesomeIcon icon={faEnvelope} size="2x" color="white" />
+          <span style={{ marginLeft: 5 }}>ayach.selenites@gmail.com</span>
         </NavBtn>
       </NavContainer>
     </>

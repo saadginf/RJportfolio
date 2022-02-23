@@ -87,11 +87,15 @@ export const SideBar = styled.div`
 `;
 export const NavBtn = styled.div`
   display: flex;
+  color: white;
+  font-weight: bold;
+  margin-left: 5px;
   align-items: center;
   @media (max-width: 960px) {
     display: none;
   }
 `;
+
 export const NavBtnLink = styled.div`
   border-radius: 50px;
   background: #01bf71;
