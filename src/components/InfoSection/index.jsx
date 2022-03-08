@@ -17,7 +17,7 @@ const InfoSection = ({
   id,
   lightBg,
   lightText,
-  lightTextDesc,
+
   topLine,
   hedline,
   description,

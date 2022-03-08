@@ -6,8 +6,7 @@ import {
   homeObjThree,
   homeObjTwo,
 } from "../components/InfoSection/data";
-import Services from "../components/Services";
-import Testimonials from "../components/Testiomnials";
+
 import Layout from "../layout/Layout";
 const HomePage = () => {
   return (

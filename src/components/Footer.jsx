@@ -7,11 +7,7 @@ import {
   faMapMarked,
   faPhoneSquare,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <div className="footer" id="contact">
